@@ -6,5 +6,8 @@ public class TrafficSimulator {
 	
 	public TrafficSimulator(){
 		
+		Lane lane = new Lane();
+		lane.start();
+		lane.currentLight = TrafficLight.green;
 	}
 }
